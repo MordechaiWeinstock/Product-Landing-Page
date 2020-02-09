@@ -1,2 +1,2 @@
-# Product-Landing-Page
-HTML and CSS project
+# Product Landing Page
+![screenshot of the app](capture.png)

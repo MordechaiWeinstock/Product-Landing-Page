@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1678d1e088.js" crossorigin="anonymous"></script>
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyeZnNpqLfduCpUS0MouLyc5snpIVj1Ft6r53G2zlMHQ8701DoLw&s"><span id="name">Unique Instruments</span>
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+
+    <h1>Home-made unique masterpieces</h1>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit"> <!-- https://www.freecodecamp.com/email-submit -->
+        <input type="email" name="email" id="email" placeholder="  Enter your email">
+
+        <input type="submit" value="Go!" id="submit">
+    </form>
+
+    <div id="features">
+        <div id="feature-div">
+            <div class="icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+            <p><span class="feature-header">premium materials</span>All materials you will be using to make your own unique instrument should be from premium quality to ensure it last at least for its first use!</p>
+        </div>
+        <div id="feature-div">
+            <div class="icon">
+                <i class="fas fa-truck"></i>
+            </div>
+            <p><span class="feature-header">free delivery</span>Delivery is totally free as you'le have it at your side to minute it's ready for use... We take no responsibilty for damaged items upon delivery.</p>
+        </div>
+        <div id="feature-div">
+            <div class="icon">
+                <i class="fas fa-thumbs-up"></i>
+            </div>
+            <p><span class="feature-header">our promise on quality</span>The quality of the product you will be making is all up to you, watxh the video and try to replicate the instuments. If for any reason you feel it was a waste of time to try this we promise not to compensate for your time, the only thing you can await from us is a big smile :-)</p>
+        </div>
+    </div>
+
+    <div id="how-it-works">
+        <iframe height="270" width="480" src="https://613tube.com/watch/?v=MWXrN3nIZyI" scrolling="no" id="video"></iframe> 
+    </div>
+
+    <div id="pricing">
+        <div id="guitar">
+            <div class="jumbotron">Guitar</div>
+            <span class="pricing">£12</span>
+            <button>SELECT</button>
+        </div>
+        <div id="flute">
+            <div class="jumbotron">Flute</div>
+            <span class="pricing">£60</span>
+            <button>SELECT</button>
+        </div>
+        <div id="whatever">
+            <div class="jumbotron">Whatever</div>
+            <span class="pricing">£25</span>
+            <button>SELECT</button>
+        </div>
+    </div>
+
+    <!-- freeCodeCamp test suite -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
